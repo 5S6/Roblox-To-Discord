@@ -27,7 +27,7 @@ if (msg.startsWith(prefix + 'userinfo')){
 }
 
 if (msg.startsWith(prefix + 'rank')) {
-    if(message.member.roles.cache.has('860249116754837525')){
+    if(message.member.roles.cache.has('891388734828847144')){
     bot.commands.get('Rank').execute(message,msg,args,config);}
 
     else message.reply("You Don't Have Perms To Use This")
@@ -38,6 +38,13 @@ if(msg.startsWith(prefix + 'payrobux'))return bot.commands.get('PayRobux').execu
 
 if(msg.startsWith(prefix + 'shout'))return bot.commands.get('GroupShout').execute(message,msg,args);
 
+const { MessageEmbed } = require("discord.js")
+if(msg.startsWith(prefix + 'help')) {
+    let embed = new MessageEmbed()
+    .setTitle("Command List")
+    .setDescription("**!payrobux{user}{ammount}**,  **!userinfo{user}**,    **!rank{user}{rank}**,  **!shout{msg}**")
+    message.channel.send(embed)
+    }
 
 });
 
@@ -60,7 +67,7 @@ bot.on('ready', () => {
 
 
 bot.on ('ready', async() => { 
-    bot.user.setActivity("Vertex", {type : "WATCHING"})
+    bot.user.setActivity("Test", {type : "WATCHING"})
     await rbxbot.setCookie(config.Cookie)
     .then(async(success) => { // Required if the group's shout is private
         console.log('Logged in.');
@@ -83,9 +90,9 @@ bot.on ('ready', async() => {
     }
     
     let avatarurl = await (GetAvatarURL(post.poster.userId))
-    const shoutchannel = await bot.guilds.cache.get('860231250996101120').channels.cache.get('865761129296822293')
+    const shoutchannel = await bot.guilds.cache.get('891388262659264512').channels.cache.get('896040842177961994')
     const embed = new Discord.MessageEmbed()
-    .setTitle('Group Shout')
+    .setTitle('New Group Shout!')
     .setURL('https://www.roblox.com/groups/9791038/All-Of-Aleks-Alts#!/about')
     .setDescription(post.body)
     .setAuthor(post.poster.username, avatarurl)
@@ -105,6 +112,9 @@ onShout.on('error', function (err) {
     
  
 });
+
+
+
 
 
 
