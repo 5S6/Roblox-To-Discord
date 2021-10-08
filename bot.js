@@ -67,7 +67,7 @@ bot.on('ready', () => {
 
 
 bot.on ('ready', async() => { 
-    bot.user.setActivity("Test", {type : "WATCHING"})
+    bot.user.setActivity("Enjoy!", {type : "WATCHING"})
     await rbxbot.setCookie(config.Cookie)
     .then(async(success) => { // Required if the group's shout is private
         console.log('Logged in.');
