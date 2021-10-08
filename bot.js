@@ -27,7 +27,7 @@ if (msg.startsWith(prefix + 'userinfo')){
 }
 
 if (msg.startsWith(prefix + 'rank')) {
-    if(message.member.roles.cache.has('891388734828847144')){
+    if(message.member.roles.cache.has(config.RoleID)){
     bot.commands.get('Rank').execute(message,msg,args,config);}
 
     else message.reply("You Don't Have Perms To Use This")
