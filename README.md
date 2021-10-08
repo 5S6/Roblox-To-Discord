@@ -2,8 +2,9 @@
 
 A Discord bot that can automate roblox actions through discord.
 
-**Run:** node bot.js
-
+**How To Run**
+1.) npm i
+2.) node bot.js
 
 
 
