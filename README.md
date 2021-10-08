@@ -2,7 +2,7 @@
 
 A Discord bot that can automate roblox actions through discord.
 
-**How To Run**
+**How To Run:**
 
 1.) npm i
 
