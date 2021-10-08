@@ -8,7 +8,7 @@ A Discord bot that can automate roblox actions through discord.
 
 2.) node bot.js
 
-
+---
 
 
 # [Config](https://github.com/Alektherblxdev/Roblox-To-Discord/blob/main/config.json)
