@@ -6,7 +6,8 @@ A Discord bot that can automate roblox actions through discord.
 
 
 
-# Config [https://github.com/Alektherblxdev/Roblox-To-Discord/blob/main/config.json]
+# [Config](https://github.com/Alektherblxdev/Roblox-To-Discord/blob/main/config.json")
+
 
 | Config Variable | Explanation | 
 | --- | --- | 
