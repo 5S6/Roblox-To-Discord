@@ -1,7 +1,17 @@
-# Roblox-To-Discord
+# Config
 
+| Command | Command | 
+| --- | --- | 
+| Token | Discord Bot Token | 
+| Cookie | Cookie For Account With Perms | 
+| GroupID | Your Group ID |
+| GroupShoutWebhookID | Webhook To Send New Shouts To | 
+| ServerID | Your Server ID | 
+| ChannelID | Channel ID To Send Webhook To |
+| GroupLink | Link To Your Group | 
+| RoleID | Your Role ID | 
 
-
+# Commands
 | Command | Command | 
 | --- | --- | 
 | Group Shout | *!shout {msg}* | 
