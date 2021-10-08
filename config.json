@@ -2,5 +2,7 @@
     "Token" : "DISCORD_BOT_TOKEN",
     "Cookie" : "ROBLOX_COOKIES_WITH_PERMS",
     "GroupID" : "YOUR_GROUP_ID",
-    "GroupShoutWebhookID" : "YOUR_WEBHOOK"
+    "GroupShoutWebhookID" : "YOUR_WEBHOOK",
+    "ServerID" : "YOUR_SERVER_ID",
+    "ChannelID" : "YOUR_CHANNEL_ID"
 }
