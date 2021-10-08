@@ -19,7 +19,7 @@
 | Payrobux | *!payrobux {user} {ammount}* |
 
 
-# Examples
+# Command Examples
 
 **Group Shout -**
 
