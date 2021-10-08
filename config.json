@@ -5,5 +5,6 @@
     "GroupShoutWebhookID" : "YOUR_WEBHOOK",
     "ServerID" : "YOUR_SERVER_ID",
     "ChannelID" : "YOUR_CHANNEL_ID",
-    "GroupLink" : "LINK_TO_UR_GROUP"
+    "GroupLink" : "LINK_TO_UR_GROUP",
+    "RoleID" : "YOUR_ROLE_ID"
 }
