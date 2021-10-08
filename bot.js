@@ -90,7 +90,7 @@ bot.on ('ready', async() => {
     }
     
     let avatarurl = await (GetAvatarURL(post.poster.userId))
-    const shoutchannel = await bot.guilds.cache.get('891388262659264512').channels.cache.get('896040842177961994')
+    const shoutchannel = await bot.guilds.cache.get(config.ServerID).channels.cache.get(config.ChannelID)
     const embed = new Discord.MessageEmbed()
     .setTitle('New Group Shout!')
     .setURL('https://www.roblox.com/groups/9791038/All-Of-Aleks-Alts#!/about')
