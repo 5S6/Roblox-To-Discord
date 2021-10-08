@@ -1,6 +1,6 @@
 # Config
 
-| Command | Command | 
+| Config Variable | Use | 
 | --- | --- | 
 | Token | Discord Bot Token | 
 | Cookie | Cookie For Account With Perms | 
