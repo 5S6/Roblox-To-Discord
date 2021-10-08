@@ -1,6 +1,6 @@
 # Roblox To Discord Bot
 
-A bot that can automate roblox actions through discord.
+A Discord bot that can automate roblox actions through discord.
 
 # Config
 
