@@ -6,7 +6,7 @@ A Discord bot that can automate roblox actions through discord.
 
 
 
-# Config
+# Config (config.json)
 
 | Config Variable | Explanation | 
 | --- | --- | 
