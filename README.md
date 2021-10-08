@@ -2,7 +2,7 @@
 
 
 
-| Command | Use | 
+| Command | Command | 
 | --- | --- | 
 | Shout | *!shout {msg}* | 
 | Userinfo | *!userinfo {user}* | 
